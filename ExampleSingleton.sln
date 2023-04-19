@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleSingleton", "ExampleSingleton\ExampleSingleton.csproj", "{9D78ABB8-123C-456D-B478-EB3D3559A564}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleSingleton", "ExampleSingleton\ExampleSingleton.csproj", "{9D78ABB8-123C-456D-B478-EB3D3559A564}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleFactoryMethod", "ExampleFactoryMethod\ExampleFactoryMethod.csproj", "{95345443-DD9A-4462-9A4D-A84A1081473B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleFactoryMethod", "ExampleFactoryMethod\ExampleFactoryMethod.csproj", "{95345443-DD9A-4462-9A4D-A84A1081473B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleAbstractFactory", "ExampleAbstractFactory\ExampleAbstractFactory.csproj", "{AA072B36-916E-46AE-B36C-B17693B851E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleAbstractFactory", "ExampleAbstractFactory\ExampleAbstractFactory.csproj", "{AA072B36-916E-46AE-B36C-B17693B851E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePrototype", "ExamplePrototype\ExamplePrototype.csproj", "{2E22B4C2-A7B5-49C8-93FB-D979C18A781E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamplePrototype", "ExamplePrototype\ExamplePrototype.csproj", "{2E22B4C2-A7B5-49C8-93FB-D979C18A781E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleDecorator", "ExampleDecorator\ExampleDecorator.csproj", "{EB6864CE-7A05-436F-B377-D8BD5D17517A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2E22B4C2-A7B5-49C8-93FB-D979C18A781E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E22B4C2-A7B5-49C8-93FB-D979C18A781E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E22B4C2-A7B5-49C8-93FB-D979C18A781E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6864CE-7A05-436F-B377-D8BD5D17517A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6864CE-7A05-436F-B377-D8BD5D17517A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6864CE-7A05-436F-B377-D8BD5D17517A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6864CE-7A05-436F-B377-D8BD5D17517A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
